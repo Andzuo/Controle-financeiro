@@ -1,71 +1,71 @@
-# Getting Started with Create React App
+:#Controle Financeiro em ReactJS:#
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Este é um projeto de controle financeiro desenvolvido em React, utilizando styled-components e react-icons para a interface do usuário. Ele também faz uso do armazenamento local (LocalStorage) para manter as informações financeiras armazenadas no navegador do usuário.
 
-## Available Scripts
+#Visão Geral do Projeto#
 
-In the project directory, you can run:
+Este projeto visa fornecer uma aplicação simples para controle financeiro pessoal, onde os usuários podem adicionar, editar e excluir transações financeiras, bem como acompanhar seu saldo total. As principais características incluem:
 
-### `npm start`
+1. Adicionar transações de entrada (receitas) e saída (despesas).
+2. Visualizar o histórico de transações.
+3. Excluir transações.
+4. Calcular o saldo atual.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+#Tecnologias Utilizadas#
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+React: Biblioteca JavaScript para construir interfaces de usuário interativas.
+styled-components: Biblioteca para estilizar componentes React com CSS no JavaScript.
+react-icons: Biblioteca que fornece uma ampla variedade de ícones para usar na interface do usuário.
+LocalStorage: Armazenamento local no navegador para manter as informações financeiras.
 
-### `npm test`
+#Configuração do Projeto#
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Para executar este projeto em sua máquina local, siga as etapas abaixo:
 
-### `npm run build`
+:#Clone o repositório::#
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+git clone [URL do seu repositório Git]
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+#Instale as dependências:#
 
-### `npm run eject`
+cd nome-do-seu-projeto
+npm install
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+::#Inicie o servidor de desenvolvimento:::#
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+::#npm start::#
+Isso iniciará o aplicativo em modo de desenvolvimento e abrirá automaticamente uma nova janela do navegador com o aplicativo em execução.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+Acesse o aplicativo no navegador:
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+Abra seu navegador e vá para http://localhost:3000 para ver o aplicativo em funcionamento.
 
-## Learn More
+#Como Usar#
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Adicionar uma transação:
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+Clique no botão "Adicionar".
+Preencha os detalhes da transação, incluindo a descrição, o valor e o tipo (entrada ou saída).
+Clique em "Salvar Transação" para adicionar a transação.
+Visualizar o histórico de transações:
 
-### Code Splitting
+Na página inicial, você verá uma lista de suas transações anteriores.
+Cada transação é exibida com sua descrição, valor e tipo.
+Excluir uma transação:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+Ao lado de cada transação na lista, há um ícone de lixeira.
+Clique neste ícone para excluir a transação correspondente.
 
-### Analyzing the Bundle Size
+#Faça um fork do repositório#
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+Crie uma branch para sua contribuição:
 
-### Making a Progressive Web App
+git checkout -b minha-contribuicao
+Faça suas alterações e commit:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+git commit -m "Adicionar funcionalidade XYZ"
+Faça um push para a branch:
 
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
-#controle-financeiro
+git push origin minha-contribuicao
+Abra um pull request no repositório original.

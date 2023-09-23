@@ -1,8 +1,8 @@
-:#Controle Financeiro em ReactJS:#
+# Controle Financeiro em ReactJS 
 
 Este é um projeto de controle financeiro desenvolvido em React, utilizando styled-components e react-icons para a interface do usuário. Ele também faz uso do armazenamento local (LocalStorage) para manter as informações financeiras armazenadas no navegador do usuário.
 
-#Visão Geral do Projeto#
+## Visão Geral do Projeto
 
 Este projeto visa fornecer uma aplicação simples para controle financeiro pessoal, onde os usuários podem adicionar, editar e excluir transações financeiras, bem como acompanhar seu saldo total. As principais características incluem:
 
@@ -11,37 +11,37 @@ Este projeto visa fornecer uma aplicação simples para controle financeiro pess
 3. Excluir transações.
 4. Calcular o saldo atual.
 
-#Tecnologias Utilizadas#
+## Tecnologias Utilizadas
 
 React: Biblioteca JavaScript para construir interfaces de usuário interativas.
 styled-components: Biblioteca para estilizar componentes React com CSS no JavaScript.
 react-icons: Biblioteca que fornece uma ampla variedade de ícones para usar na interface do usuário.
 LocalStorage: Armazenamento local no navegador para manter as informações financeiras.
 
-#Configuração do Projeto#
+### Configuração do Projeto
 
 Para executar este projeto em sua máquina local, siga as etapas abaixo:
 
-:#Clone o repositório::#
+#### Clone o repositório
 
-git clone [URL do seu repositório Git]
+``` git clone [URL do seu repositório Git] ```
 
 
-#Instale as dependências:#
+#### Instale as dependências:
 
-cd nome-do-seu-projeto
-npm install
+```cd nome-do-seu-projeto```
+```npm install```
 
-::#Inicie o servidor de desenvolvimento:::#
+#### Inicie o servidor de desenvolvimento
 
-::#npm start::#
+``` npm start ```
 Isso iniciará o aplicativo em modo de desenvolvimento e abrirá automaticamente uma nova janela do navegador com o aplicativo em execução.
 
 Acesse o aplicativo no navegador:
 
 Abra seu navegador e vá para http://localhost:3000 para ver o aplicativo em funcionamento.
 
-#Como Usar#
+# Como Usar
 
 Adicionar uma transação:
 
@@ -61,11 +61,13 @@ Clique neste ícone para excluir a transação correspondente.
 
 Crie uma branch para sua contribuição:
 
-git checkout -b minha-contribuicao
+ ```git checkout -b minha-contribuicao ```
+ 
 Faça suas alterações e commit:
 
-git commit -m "Adicionar funcionalidade XYZ"
+```git commit -m "Adicionar funcionalidade XYZ"```
+
 Faça um push para a branch:
 
-git push origin minha-contribuicao
+```git push origin minha-contribuicao```
 Abra um pull request no repositório original.

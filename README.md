@@ -1,4 +1,8 @@
-# Controle Financeiro em ReactJS 
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+# Controle Financeiro em ReactJS <i class="fab fa-react"></i><i class="fab fa-js"></i>
+
+
 
 Este é um projeto de controle financeiro desenvolvido em React, utilizando styled-components e react-icons para a interface do usuário. Ele também faz uso do armazenamento local (LocalStorage) para manter as informações financeiras armazenadas no navegador do usuário.
 

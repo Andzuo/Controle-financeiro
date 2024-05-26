@@ -13,3 +13,8 @@ export const Td = styled.td`
         height: 18px;
     }
 `;
+
+export const button = styled.button `
+    cursor: pointer;
+    border: none;
+`;
